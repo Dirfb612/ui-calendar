@@ -8,7 +8,6 @@
 *
 */
 require('fullcalendar')
-debugger
 
 angular.module('ui.calendar', [])
   .constant('uiCalendarConfig', {calendars: {}})
