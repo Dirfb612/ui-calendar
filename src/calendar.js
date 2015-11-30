@@ -7,7 +7,8 @@
 *       The calendar will watch any eventSource array and update itself when a change is made.
 *
 */
-angular.element.prototype.fullCalendar = require('fullcalendar')
+require('fullcalendar')
+debugger
 
 angular.module('ui.calendar', [])
   .constant('uiCalendarConfig', {calendars: {}})
