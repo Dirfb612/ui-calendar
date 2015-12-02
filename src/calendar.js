@@ -8,6 +8,7 @@
 *
 */
 require('fullcalendar')
+var moment = require('moment')
 
 angular.module('ui.calendar', [])
   .constant('uiCalendarConfig', {calendars: {}})
